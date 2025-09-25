@@ -1,0 +1,447 @@
+@media only screen and (max-width: 768px) {
+        /* HEADER CODE */
+    .header{
+        border: 1px solid white;
+        position: relative;
+        padding: 20px 10%;
+    }
+
+    .logo{
+        font-size: 18px;
+    }
+
+    .navbar{
+        /* border: 1px solid red; */
+        margin-right: .5%;
+    }
+
+    .navbar a{
+        font-size: 18px;
+        margin-right: 30px;
+    }
+
+        /* HOME PAGE CODE */
+    .home{
+        /* border: 1px solid white; */
+        position: relative;
+        width: 100%;
+        height: 100vh;
+        display: block;
+        padding: 30px 5% 0;
+    }
+
+    .big{
+        display: none;
+    }
+
+    .small{
+        display: block;
+    }
+
+    .home-img{
+        /* border: 1px solid white; */
+        width: 200px;
+        height: 200px;
+        margin: 1% auto;
+    }
+
+    .home-img img{
+        width: 100%;
+        height: 100%;
+    }
+
+    .home-content{
+        max-width: 100%;
+        margin-top: 10%;
+    }
+
+    .home-content h3{
+        font-size: 25px;
+        font-weight: 700;
+    }
+
+    .home-content h1{
+        font-size: 45px;
+        margin: 20px 10px;
+    }
+
+    .home-content p{
+        font-size: 15px;
+    }
+
+    .btn{
+        padding: 10px 20px;
+        font-size: 15px;
+        margin-bottom: 8%;
+    }
+
+        /* ABOUT PAGE CODE */
+    #abt_home-img{
+        display: none;
+    }
+
+    #about-me{
+        max-width: 100%;
+        height: auto;
+    }
+
+    #about-me img{
+        border-radius: 10px;
+        padding-right: 12px;
+        padding-bottom: 12px;
+    }
+
+    #contact{
+        /* border: 1px solid red; */
+        margin-top: 7%;
+    }
+
+    #contact ul{
+        /* border: 1px solid yellow; */
+        padding: 5px
+    }
+
+    #contact ul li{
+        font-size: 15px;
+        padding: 5px;
+        margin: .5%;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+        /* HEADER CODE */
+    .header{
+        border: 1px solid yellow;
+        /* position: relative; */
+        padding: 20px 10%;
+    }
+
+    .logo{
+        font-size: 18px;
+    }
+
+    .navbar{
+        margin-right: -40px;
+    }
+
+    .navbar a{
+        font-size: 18px;
+        margin-right: 30px;
+    }
+
+        /* HOME PAGE CODE */
+    .home{
+        /* border: 1px solid red; */
+        position: relative;
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 50px 5% 0;
+    }
+
+    .big{
+        display: block;
+    }
+
+    .small{
+        display: none;
+    }
+
+    .home-img{
+        /* border: 1px solid white; */
+        width: 900px;
+        height: 400px;
+        margin-left: 10px;
+    }
+
+    .home-img img{
+        width: 100%;
+        height: 100%;
+    }
+
+    .home-content{
+        max-width: 600px;
+        margin-top: 10%;
+    }
+
+    .home-content h3{
+        font-size: 25px;
+        font-weight: 700;
+    }
+
+    .home-content h1{
+        font-size: 45px;
+        margin: 20px 10px;
+    }
+
+    .home-content p{
+        font-size: 15px;
+    }
+
+    .btn{
+        padding: 10px 20px;
+        font-size: 15px;
+        margin-bottom: 8%;
+    }
+
+        /* ABOUT PAGE CODE */
+    #abt_home-img{
+        display: none;
+    }
+
+    #about-me{
+        /* border: 1px solid red; */
+        max-width: 100%;
+        height: 520px;
+        /* margin-top: 5%; */
+    }
+
+    #about-me img{
+        border-radius: 10px;
+        padding-right: 12px;
+        padding-bottom: 12px;
+    }
+
+    #contact{
+        /* border: 1px solid red; */
+        margin-top: 5%;
+    }
+
+    #contact ul{
+        /* border: 1px solid yellow; */
+        padding: 5px
+    }
+
+    #contact ul li{
+        font-size: 15px;
+        padding: 5px;
+        margin: .5%;
+    }
+
+        /* PROJECTS PAGE CODE */
+    #project_img_big{
+        width: 800px;
+        height: auto;
+    }
+
+    #project_img_big{
+        /* border: 1px solid white; */
+        width: 800px;
+        height: 400px;
+        margin-top: 120px;
+        margin-left: 20px;
+    }
+
+    #project_img_big img{
+        width: 100%;
+        height: 100%;
+    }
+}
+
+@media (min-width: 1025px) and (max-width: 1420px) {
+     /* HEADER CODE */
+    .header{
+        /* border: 1px solid red; */
+        /* position: relative; */
+        padding: 20px 10%;
+    }
+
+    .logo{
+        font-size: 18px;
+    }
+
+    .navbar{
+        /* border: 1px solid red; */
+        margin-right: .5%;
+    }
+
+    .navbar a{
+        font-size: 18px;
+        margin-right: 30px;
+    }
+
+        /* HOME PAGE CODE */
+    .home{
+        /* border: 1px solid yellow; */
+        position: relative;
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 50px 5% 0;
+    }
+
+    .big{
+        display: block;
+    }
+
+    .small{
+        display: none;
+    }
+
+    .home-img{
+        /* border: 1px solid white; */
+        width: 800px;
+        height: 400px;
+        margin-left: 10px;
+    }
+
+    .home-img img{
+        width: 100%;
+        height: 100%;
+    }
+
+    .home-content{
+        max-width: 100%;
+        margin-top: 10%;
+    }
+
+    .home-content h3{
+        font-size: 25px;
+        font-weight: 700;
+    }
+
+    .home-content h1{
+        font-size: 45px;
+        margin: 20px 10px;
+    }
+
+    .home-content p{
+        font-size: 15px;
+    }
+
+    .btn{
+        padding: 10px 20px;
+        font-size: 15px;
+        margin-bottom: 8%;
+    }
+
+        /* ABOUT PAGE CODE */
+    #abt_header{
+        margin-bottom: 0;
+    }
+
+    #abt_home-img{
+        display: none;
+    }
+
+    #about-me{
+        max-width: 100%;
+        height: auto;
+    }
+
+    #about-me img{
+        border-radius: 10px;
+        padding-right: 12px;
+        padding-bottom: 12px;
+    }
+
+    #contact{
+        margin-top: 4%;
+    }
+
+    #contact ul{
+        padding: 5px
+    }
+
+    #contact ul li{
+        font-size: 15px;
+        padding: 5px;
+        margin: .5%;
+    }
+
+    /* PROJECTS PAGE CODE */
+    #project_img_big{
+        width: 800px;
+        height: auto;
+    }
+
+    #project_img_big{
+        /* border: 1px solid white; */
+        width: 800px;
+        height: 400px;
+        margin-top: 120px;
+        margin-left: 20px;
+    }
+
+    #project_img_big img{
+        width: 100%;
+        height: 100%;
+    }
+}
+
+@media (min-width: 1421px) and (max-width: 1439px){
+        /* HOME PAGE CODE */
+    .home{
+        /* border: 1px solid yellow; */
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 50px 5% 0;
+    }
+
+    .home-img{
+        /* border: 1px solid white; */
+        width: 650px;
+        height: auto;
+        margin-top: 30px;
+        margin-right: 100px;
+    }
+
+    .home-img img{
+        width: 100%;
+        height: 100%;
+    }
+
+    .home-content{
+        max-width: 70%;
+        margin-top: 10%;
+    }
+
+    .btn{
+        padding: 10px 20px;
+        font-size: 15px;
+        margin-bottom: 8%;
+    }
+
+        /* ABOUT US PAGE CODE */
+    #abt_header{
+        margin-bottom: 0;
+    }
+
+    #abt_home-img{
+        display: none;
+    }
+
+    #about-me{
+        max-width: 100%;
+        height: auto;
+    }
+
+    #about-me img{
+        border-radius: 10px;
+        padding-right: 12px;
+        padding-bottom: 12px;
+    }
+
+    #contact{
+        margin-top: 4%;
+    }
+
+    #contact ul{
+        padding: 5px
+    }
+
+    #contact ul li{
+        font-size: 15px;
+        padding: 5px;
+        margin: .5%;
+    }
+
+}
